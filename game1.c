@@ -24,11 +24,11 @@ int main(){
          scanf("%d",&x);
          if( x < 0 || x > 2){
             printf("Invalid input.Choice 0\\1\\2");
-            break;
+            continue;;
          }
 
         srand(time(0));
-        //random = rand() % 3;
+        random = rand() % 3;
         play_fun(x,random);
         printf("\nIf you want to play again press 1 else 0:");
         scanf("%d",&n);
