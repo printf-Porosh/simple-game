@@ -24,7 +24,7 @@ int main(){
          scanf("%d",&x);
          if( x < 0 || x > 2){
             printf("Invalid input.Choice 0\\1\\2");
-            continue;;
+            continue;
          }
 
         srand(time(0));
