@@ -40,7 +40,10 @@ void gotoxy(int x,int y){
 
     };
 
-    
+    struct password32
+    {
+        char password2[32];
+    };
     
     struct money
     {
@@ -117,11 +120,10 @@ void account(void){
     printf("Enter your last name: ");
     scanf("%s",&d1.lastname);
     gotoxy(2,10);
-    printf("Enter your Date of Birth: \n");
-    printf("Date month year (DD MM YYYY): ");
-    scanf("%d %d %d",&d1.day,&d1.month,d1.year);
+    printf("Enter your Date of Birth \n");
+    printf("(date / month / year): ");
+    scanf("%d %d %d",&d1.day,&d1.month,&d1.year);
    
-    
     printf("\nEnter NID number :");
     scanf("%s",&d1.nid);
     printf("\nEnter your Father's Name :");
@@ -198,7 +200,7 @@ int login(char username_main[],char password_main[])
     int i,j,k;
     FILE *fu;
     struct data d1;
-    
+    struct password32 p1;
 
     
     fu = fopen("account.txt","rb");
