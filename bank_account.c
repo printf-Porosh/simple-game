@@ -40,10 +40,7 @@ void gotoxy(int x,int y){
 
     };
 
-    struct password32
-    {
-        char password2[32];
-    };
+    
     
     struct money
     {
@@ -203,7 +200,7 @@ int login(char username_main[],char password_main[])
     int i,j,k;
     FILE *fu;
     struct data d1;
-    struct password32 p1;
+    
 
     
     fu = fopen("account.txt","rb");
