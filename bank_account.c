@@ -118,13 +118,11 @@ void account(void){
     scanf("%s",&d1.lastname);
     gotoxy(2,10);
     printf("Enter your Date of Birth: \n");
-    printf("Date : ");
-    scanf("%d",&d1.day);
-    printf("\nMonth : ");
-    scanf("%d",&d1.month);
-    printf("\nYear : ");
-    scanf("%d",&d1.year);
-    printf("Enter NID number :");
+    printf("Date month year (DD MM YYYY): ");
+    scanf("%d %d %d",&d1.day,&d1.month,d1.year);
+   
+    
+    printf("\nEnter NID number :");
     scanf("%s",&d1.nid);
     printf("\nEnter your Father's Name :");
     getchar();
