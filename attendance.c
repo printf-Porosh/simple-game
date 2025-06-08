@@ -50,6 +50,7 @@ struct ct_entry {
 
 int main(){
     int n;
+    system("cls");
     gotoxy(20,5);
     printf("WELCOME TO ACCADEMIC SYSTEM\n\n");
     gotoxy(18,7);
@@ -363,7 +364,9 @@ int attendance(int n){
         printf("Attendance recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        attendance(n); // Call attendance function again to return to the main menu
+        system("cls");
+       //attendance(n); // Call attendance function again to return to the main menu
+       teacher(); // Return to the teacher menu
    
    }
 
@@ -409,8 +412,11 @@ int attendance(int n){
             Sleep(1000);
             printf("Attendance recorded successfully!\n");
              printf("Press any key to  go to main menu..\n");
-        getch();
-        attendance(n); // Call attendance function again to return to the main menu
+         getch();
+         system("cls");
+            //attendance(n); // Call attendance function again to return to the main menu
+            teacher(); // Return to the teacher menu
+   
             
         }
         
@@ -456,8 +462,11 @@ int attendance(int n){
             Sleep(1000);
             printf("Attendance recorded successfully!\n");
              printf("Press any key to  go to main menu..\n");
-        getch();
-        attendance(n); // Call attendance function again to return to the main menu
+            getch();
+        system("cls");
+       //attendance(n); // Call attendance function again to return to the main menu
+       teacher(); // Return to the teacher menu
+   
         }
 
    }
@@ -502,8 +511,11 @@ int attendance(int n){
             Sleep(1000);
             printf("Attendance recorded successfully!\n");
              printf("Press any key to  go to main menu..\n");
-        getch();
-        attendance(n); // Call attendance function again to return to the main menu
+           getch();
+        system("cls");
+       //attendance(n); // Call attendance function again to return to the main menu
+       teacher(); // Return to the teacher menu
+   
         }
 
    }
@@ -548,8 +560,11 @@ int attendance(int n){
             Sleep(1000);
             printf("Attendance recorded successfully!\n");
              printf("Press any key to  go to main menu..\n");
-        getch();
-        attendance(n); // Call attendance function again to return to the main menu
+       getch();
+        system("cls");
+       //attendance(n); // Call attendance function again to return to the main menu
+       teacher(); // Return to the teacher menu
+   
         }
 
    }
@@ -594,8 +609,11 @@ int attendance(int n){
             Sleep(1000);
             printf("Attendance recorded successfully!\n");
              printf("Press any key to  go to main menu..\n");
-        getch();
-        attendance(n); // Call attendance function again to return to the main menu
+       getch();
+        system("cls");
+       //attendance(n); // Call attendance function again to return to the main menu
+       teacher(); // Return to the teacher menu
+   
         }
 
    }
@@ -617,7 +635,7 @@ int ct(int n){
     int k;
     if (n == 24628)
     {
-        printf("Enter CT number for Minhaj sir :");
+        printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -648,11 +666,13 @@ int ct(int n){
         printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        ct(n); // Call ct function again to return to the main menu
+        system("cls");       
+       teacher(); // Return to the teacher menu
+   
     }
     else if (n == 24625)
     {
-       printf("Enter CT number for Devid sir :");
+       printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -683,11 +703,12 @@ int ct(int n){
          printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        ct(n); // Call ct function again to return to the main menu
+        system("cls");       
+       teacher(); // Return to the teacher menu
     }
     else if (n == 24629)
     {
-       printf("Enter CT number for Taseen sir :");
+       printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -718,11 +739,12 @@ int ct(int n){
          printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        ct(n); // Call ct function again to return to the main menu
+        system("cls");       
+       teacher(); // Return to the teacher menu
     }
      else if (n == 24725)
     {
-        printf("Enter CT number for Firoj sir :");
+        printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -753,10 +775,11 @@ int ct(int n){
          printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        ct(n); // Call ct function again to return to the main menu
+        system("cls");       
+       teacher(); // Return to the teacher menu
     }
     else if (n == 24624)
-    {printf("Enter CT number for Sathee mem :");
+    {printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -787,11 +810,12 @@ int ct(int n){
          printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
         getch();
-        ct(n); // Call ct function again to return to the main menu
+        system("cls");       
+       teacher(); // Return to the teacher menu
     }
     else if (n == 24621)
     {
-        printf("Enter CT number for Sohidul sir :");
+        printf("Enter CT number  :");
         scanf("%d",&ct_no);
         
         printf("Enter number of students: ");
@@ -821,8 +845,9 @@ int ct(int n){
         fclose(ct_file);
          printf("CT data recorded successfully!\n");
         printf("Press any key to  go to main menu..\n");
-        getch();
-        ct(n); // Call ct function again to return to the main menu
+       getch();
+        system("cls");       
+       teacher(); // Return to the teacher menu
     }
     else
     {
