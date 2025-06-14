@@ -300,6 +300,16 @@ void teacher(void){
         }
     }
 
+    else{
+        gotoxy(20,5);
+        printf("Invalid teacher id!\n");
+        gotoxy(20,7);
+        printf("Please try again.\n");
+        Sleep(1000);
+        system("cls");
+        teacher();
+    }
+
     
 }
 
