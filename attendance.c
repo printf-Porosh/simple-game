@@ -109,7 +109,7 @@ void teacher(void){
     gotoxy(20,11);
     printf("2.... CT number\n");
     gotoxy(20,13);
-    //printf("3.... Assignment Cheak\n");
+    printf("3.... Go to main menu\n");
     gotoxy(20,15);
     printf("..........");
     scanf("%d",&m);
@@ -121,9 +121,9 @@ void teacher(void){
         case 2:
             ct(n);
             break;
-       /* case 3:
-            assignment(n);
-            break;*/
+       case 3:
+            main();
+            break;
         default:
             printf("Invalid choice! Please try again.\n");
             teacher();
@@ -141,7 +141,7 @@ void teacher(void){
     gotoxy(20,11);
     printf("2.... CT number\n");
     gotoxy(20,13);
-   // printf("3.... Assignment Cheak\n");
+    printf("3.... Go to main menu\n");
     gotoxy(20,15);
     printf("..........");
     scanf("%d",&m);
@@ -153,9 +153,9 @@ void teacher(void){
         case 2:
             ct(n);
             break;
-       /* case 3:
-            assignment(n);
-            break;*/
+        case 3:
+            main();
+            break;
         default:
             printf("Invalid choice! Please try again.\n");
             teacher();
@@ -175,7 +175,7 @@ void teacher(void){
     gotoxy(20,11);
     printf("2.... CT number\n");
     gotoxy(20,13);
-    //printf("3.... Assignment Cheak\n");
+    printf("3.... Go to main menu\n");
     gotoxy(20,15);
     printf("..........");
     scanf("%d",&m);
@@ -187,9 +187,9 @@ void teacher(void){
         case 2:
             ct(n);
             break;
-        /*case 3:
-            assignment(n);
-            break;*/
+        case 3:
+            main();
+            break;
         default:
             printf("Invalid choice! Please try again.\n");
             teacher();
@@ -210,7 +210,7 @@ void teacher(void){
     gotoxy(20,11);
     printf("2.... CT number\n");
     gotoxy(20,13);
-    //printf("3.... Assignment Cheak\n");
+     printf("3.... Go to main menu\n");
     gotoxy(20,15);
     printf("..........");
     scanf("%d",&m);
@@ -222,9 +222,9 @@ void teacher(void){
         case 2:
             ct(n);
             break;
-        /*case 3:
-            assignment(n);
-            break;*/
+        case 3:
+            main();
+            break;
         default:
             printf("Invalid choice! Please try again.\n");
             teacher();
@@ -244,7 +244,7 @@ void teacher(void){
         gotoxy(20,11);
         printf("2.... CT number\n");
         gotoxy(20,13);
-        //printf("3.... Assignment Cheak\n");
+       printf("3.... Go to main menu\n");
         gotoxy(20,15);
         printf("..........");
         scanf("%d",&m);
@@ -256,9 +256,9 @@ void teacher(void){
             case 2:
                 ct(n);
                 break;
-            /*case 3:
-                assignment(n);
-                break;*/
+            case 3:
+                main();
+                break;
             default:
                 printf("Invalid choice! Please try again.\n");
                 teacher();
@@ -279,7 +279,7 @@ void teacher(void){
         gotoxy(20,11);
         printf("2.... CT number\n");
         gotoxy(20,13);
-       // printf("3.... Assignment Cheak\n");
+        printf("3.... Go to main menu\n");
         gotoxy(20,15);
         printf("..........");
         scanf("%d",&m);
@@ -291,9 +291,9 @@ void teacher(void){
             case 2:
                 ct(n);
                 break;
-            /*case 3:
-                assignment(n);
-                break;*/
+            case 3:
+                main();
+                break;
             default:
                 printf("Invalid choice! Please try again.\n");
                 teacher();
